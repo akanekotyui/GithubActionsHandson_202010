@@ -11,7 +11,7 @@ on:
     branches: [ master ]
   schedule:
     # * はYAMLに置ける特殊文字なので、この文字列は引用符で囲まなければならない
-    - cron:  '*/1 * * * *'
+    - cron:  '35 * * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
