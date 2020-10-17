@@ -7,11 +7,11 @@ name: CI
 on:
 #   push:
 #     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+#   pull_request:
+#     branches: [ master ]
   schedule:
     # * はYAMLに置ける特殊文字なので、この文字列は引用符で囲まなければならない
-    - cron:  '35 * * * *'
+    - cron:  '40 11 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
