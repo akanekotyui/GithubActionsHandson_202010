@@ -45,3 +45,4 @@ jobs:
           
       - name: テストが失敗したとき
         if: ${{ failure() }}
+        run: echo :( test failed
